@@ -1,0 +1,38 @@
+﻿<Window x:Class="loginScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SmartATSFaceID"
+        mc:Ignorable="d"
+        Title="loginScreen" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <LinearGradientBrush.RelativeTransform>
+                    <TransformGroup>
+                        <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                        <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                        <RotateTransform Angle="-51" CenterX="0.5" CenterY="0.5"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </LinearGradientBrush.RelativeTransform>
+                <GradientStop Color="#FF041367"/>
+                <GradientStop Color="#FF556DEF" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Rectangle HorizontalAlignment="Center" Height="330" Margin="0,48,0,0" Stroke="White" VerticalAlignment="Top" Width="570"/>
+        <Label Content="CONNEXION" HorizontalAlignment="Left" Margin="128,36,0,0" VerticalAlignment="Top" Foreground="White" Background="#FF09186F"/>
+        <Label Content="Email" HorizontalAlignment="Left" Height="27" Margin="206,98,0,0" VerticalAlignment="Top" Width="72" Foreground="White" FontFamily="Century Gothic"/>
+        <Label Content="Mot de Passe" HorizontalAlignment="Left" Height="26" Margin="206,184,0,0" VerticalAlignment="Top" Width="97" Foreground="White" FontFamily="Century Gothic"/>
+        <TextBox x:Name="passwordTextBox" HorizontalAlignment="Left" Height="38" Margin="206,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="412" Background="#01020202" Foreground="White" SelectionBrush="#000078D7" SelectionTextBrush="Transparent" BorderBrush="{x:Null}" FontFamily="Century Gothic" ToolTip="Entrez votre mot de passe" Cursor="IBeam"/>
+        <Rectangle HorizontalAlignment="Left" Height="2" Margin="206,251,0,0" VerticalAlignment="Top" Width="412" Fill="White"/>
+        <TextBox x:Name="emailTextBox" HorizontalAlignment="Left" Height="38" Margin="206,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="412" Background="#00020202" Foreground="White" SelectionBrush="#000078D7" SelectionTextBrush="Transparent" BorderBrush="{x:Null}" FontFamily="Century Gothic" ToolTip="Entrez votre mot de passe" Cursor="IBeam"/>
+        <Rectangle HorizontalAlignment="Left" Height="2" Margin="206,164,0,0" VerticalAlignment="Top" Width="412" Fill="White"/>
+        <Button x:Name="loginButton" Content="Se Connecter" HorizontalAlignment="Left" Height="32" Margin="206,283,0,0" VerticalAlignment="Top" Width="412" FontFamily="Century Gothic" BorderBrush="#FFFFFBFB" Foreground="White" Background="{x:Null}" Cursor="Hand"/>
+        <Label x:Name="registerLabel" Content="Créer un compte" HorizontalAlignment="Left" Height="26" Margin="370,346,0,0" VerticalAlignment="Top" Width="86" Foreground="White" FontFamily="Century Gothic" FontSize="9"/>
+        <Rectangle HorizontalAlignment="Left" Height="1" Margin="206,338,0,0" VerticalAlignment="Top" Width="412" Fill="White"/>
+        <Label Content="  OU" HorizontalAlignment="Left" Height="26" Margin="390,326,0,0" VerticalAlignment="Top" Width="45" Foreground="White" FontFamily="Century Gothic" Background="#FF4056CC"/>
+
+    </Grid>
+</Window>

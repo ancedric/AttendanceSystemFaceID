@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SmartATSFaceID/1.0.0": {
+        "runtime": {
+          "SmartATSFaceID.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SmartATSFaceID/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
