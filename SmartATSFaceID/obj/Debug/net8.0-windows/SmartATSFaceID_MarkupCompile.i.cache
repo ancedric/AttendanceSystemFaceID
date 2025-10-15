@@ -10,11 +10,11 @@ none
 false
 ;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 C:\Users\anced\OneDrive\Documents\GL2\programmation-evenementielle_2\projets\Smart_ats_face_id\AttendanceSystemFaceID\SmartATSFaceID\Application.xaml
-2-1527461638
+41062234565
 
-6-736445462
-198347540315
-loginScreen.xaml;MainWindow.xaml;
+11170862941
+206-907836028
+loginScreen.xaml;MainWindow.xaml;NotificationPopup.xaml;SignupScreen.xaml;
 
 True
 

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{64A7A738-BD6D-4274-B924-5F3B60EEB7BC}|SmartATSFaceID.vbproj|c:\\users\\anced\\onedrive\\documents\\gl2\\programmation-evenementielle_2\\projets\\smart_ats_face_id\\attendancesystemfaceid\\smartatsfaceid\\loginscreen.xaml.vb||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{64A7A738-BD6D-4274-B924-5F3B60EEB7BC}|SmartATSFaceID.vbproj|solutionrelative:loginscreen.xaml.vb||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{64A7A738-BD6D-4274-B924-5F3B60EEB7BC}|SmartATSFaceID.vbproj|c:\\users\\anced\\onedrive\\documents\\gl2\\programmation-evenementielle_2\\projets\\smart_ats_face_id\\attendancesystemfaceid\\smartatsfaceid\\loginscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{64A7A738-BD6D-4274-B924-5F3B60EEB7BC}|SmartATSFaceID.vbproj|solutionrelative:loginscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -11,8 +15,42 @@
       "RelativeMoniker": "D:0:0:{64A7A738-BD6D-4274-B924-5F3B60EEB7BC}|SmartATSFaceID.vbproj|solutionrelative:mainwindow.xaml.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{64A7A738-BD6D-4274-B924-5F3B60EEB7BC}|SmartATSFaceID.vbproj|c:\\users\\anced\\onedrive\\documents\\gl2\\programmation-evenementielle_2\\projets\\smart_ats_face_id\\attendancesystemfaceid\\smartatsfaceid\\signupscreen.xaml.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{64A7A738-BD6D-4274-B924-5F3B60EEB7BC}|SmartATSFaceID.vbproj|solutionrelative:signupscreen.xaml.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64A7A738-BD6D-4274-B924-5F3B60EEB7BC}|SmartATSFaceID.vbproj|c:\\users\\anced\\onedrive\\documents\\gl2\\programmation-evenementielle_2\\projets\\smart_ats_face_id\\attendancesystemfaceid\\smartatsfaceid\\notificationpopup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{64A7A738-BD6D-4274-B924-5F3B60EEB7BC}|SmartATSFaceID.vbproj|solutionrelative:notificationpopup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64A7A738-BD6D-4274-B924-5F3B60EEB7BC}|SmartATSFaceID.vbproj|c:\\users\\anced\\onedrive\\documents\\gl2\\programmation-evenementielle_2\\projets\\smart_ats_face_id\\attendancesystemfaceid\\smartatsfaceid\\signupscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{64A7A738-BD6D-4274-B924-5F3B60EEB7BC}|SmartATSFaceID.vbproj|solutionrelative:signupscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64A7A738-BD6D-4274-B924-5F3B60EEB7BC}|SmartATSFaceID.vbproj|c:\\users\\anced\\onedrive\\documents\\gl2\\programmation-evenementielle_2\\projets\\smart_ats_face_id\\attendancesystemfaceid\\smartatsfaceid\\notificationpopup.xaml.vb||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{64A7A738-BD6D-4274-B924-5F3B60EEB7BC}|SmartATSFaceID.vbproj|solutionrelative:notificationpopup.xaml.vb||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64A7A738-BD6D-4274-B924-5F3B60EEB7BC}|SmartATSFaceID.vbproj|c:\\users\\anced\\onedrive\\documents\\gl2\\programmation-evenementielle_2\\projets\\smart_ats_face_id\\attendancesystemfaceid\\smartatsfaceid\\admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{64A7A738-BD6D-4274-B924-5F3B60EEB7BC}|SmartATSFaceID.vbproj|solutionrelative:admin.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64A7A738-BD6D-4274-B924-5F3B60EEB7BC}|SmartATSFaceID.vbproj|c:\\users\\anced\\onedrive\\documents\\gl2\\programmation-evenementielle_2\\projets\\smart_ats_face_id\\attendancesystemfaceid\\smartatsfaceid\\globaldata.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{64A7A738-BD6D-4274-B924-5F3B60EEB7BC}|SmartATSFaceID.vbproj|solutionrelative:globaldata.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anced\\OneDrive\\Documents\\Visual Studio 2015\\Projects\\collegeManagementSystem\\collegeManagementSystem\\Login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{64A7A738-BD6D-4274-B924-5F3B60EEB7BC}|SmartATSFaceID.vbproj|c:\\users\\anced\\onedrive\\documents\\gl2\\programmation-evenementielle_2\\projets\\smart_ats_face_id\\attendancesystemfaceid\\smartatsfaceid\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{64A7A738-BD6D-4274-B924-5F3B60EEB7BC}|SmartATSFaceID.vbproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64A7A738-BD6D-4274-B924-5F3B60EEB7BC}|SmartATSFaceID.vbproj|c:\\users\\anced\\onedrive\\documents\\gl2\\programmation-evenementielle_2\\projets\\smart_ats_face_id\\attendancesystemfaceid\\smartatsfaceid\\user.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{64A7A738-BD6D-4274-B924-5F3B60EEB7BC}|SmartATSFaceID.vbproj|solutionrelative:user.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anced\\OneDrive\\Documents\\GL1\\BTS1\\programmation evenementielle\\Attendance_system\\attendance system_desktop\\attendanceSystem\\attendanceSystem\\AuthenticationWindow.xaml.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +60,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "NotificationPopup.xaml",
+              "DocumentMoniker": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\NotificationPopup.xaml",
+              "RelativeDocumentMoniker": "NotificationPopup.xaml",
+              "ToolTip": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\NotificationPopup.xaml",
+              "RelativeToolTip": "NotificationPopup.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-10T10:34:55.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SignupScreen.xaml.vb",
+              "DocumentMoniker": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\SignupScreen.xaml.vb",
+              "RelativeDocumentMoniker": "SignupScreen.xaml.vb",
+              "ToolTip": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\SignupScreen.xaml.vb",
+              "RelativeToolTip": "SignupScreen.xaml.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-10T10:06:43.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.vb",
+              "DocumentMoniker": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\MainWindow.xaml.vb",
+              "RelativeDocumentMoniker": "MainWindow.xaml.vb",
+              "ToolTip": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\MainWindow.xaml.vb",
+              "RelativeToolTip": "MainWindow.xaml.vb",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-07T09:31:22.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "loginScreen.xaml",
               "DocumentMoniker": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\loginScreen.xaml",
               "RelativeDocumentMoniker": "loginScreen.xaml",
@@ -38,7 +114,82 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "loginScreen.xaml.vb",
+              "DocumentMoniker": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\loginScreen.xaml.vb",
+              "RelativeDocumentMoniker": "loginScreen.xaml.vb",
+              "ToolTip": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\loginScreen.xaml.vb",
+              "RelativeToolTip": "loginScreen.xaml.vb",
+              "ViewState": "AgIAAAQAAAAAAAAAAIA3wBIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-09T15:25:40.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SignupScreen.xaml",
+              "DocumentMoniker": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\SignupScreen.xaml",
+              "RelativeDocumentMoniker": "SignupScreen.xaml",
+              "ToolTip": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\SignupScreen.xaml",
+              "RelativeToolTip": "SignupScreen.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-10T09:48:44.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NotificationPopup.xaml.vb",
+              "DocumentMoniker": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\NotificationPopup.xaml.vb",
+              "RelativeDocumentMoniker": "NotificationPopup.xaml.vb",
+              "ToolTip": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\NotificationPopup.xaml.vb",
+              "RelativeToolTip": "NotificationPopup.xaml.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-10T10:40:00.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Admin.vb",
+              "DocumentMoniker": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\Admin.vb",
+              "RelativeDocumentMoniker": "Admin.vb",
+              "ToolTip": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\Admin.vb",
+              "RelativeToolTip": "Admin.vb",
+              "ViewState": "AgIAACUAAAAAAAAAAAAMwDIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-09T14:33:32.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GlobalData.vb",
+              "DocumentMoniker": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\GlobalData.vb",
+              "RelativeDocumentMoniker": "GlobalData.vb",
+              "ToolTip": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\GlobalData.vb",
+              "RelativeToolTip": "GlobalData.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-10T09:31:25.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.vb",
+              "DocumentMoniker": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\User.vb",
+              "RelativeDocumentMoniker": "User.vb",
+              "ToolTip": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\User.vb",
+              "RelativeToolTip": "User.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-09T14:49:10.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -50,16 +201,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.vb",
-              "DocumentMoniker": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\MainWindow.xaml.vb",
-              "RelativeDocumentMoniker": "MainWindow.xaml.vb",
-              "ToolTip": "C:\\Users\\anced\\OneDrive\\Documents\\GL2\\programmation-evenementielle_2\\projets\\Smart_ats_face_id\\AttendanceSystemFaceID\\SmartATSFaceID\\MainWindow.xaml.vb",
-              "RelativeToolTip": "MainWindow.xaml.vb",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Login.vb",
+              "DocumentMoniker": "C:\\Users\\anced\\OneDrive\\Documents\\Visual Studio 2015\\Projects\\collegeManagementSystem\\collegeManagementSystem\\Login.vb",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Visual Studio 2015\\Projects\\collegeManagementSystem\\collegeManagementSystem\\Login.vb",
+              "ToolTip": "C:\\Users\\anced\\OneDrive\\Documents\\Visual Studio 2015\\Projects\\collegeManagementSystem\\collegeManagementSystem\\Login.vb",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Visual Studio 2015\\Projects\\collegeManagementSystem\\collegeManagementSystem\\Login.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-10-07T09:31:22.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T15:08:55.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthenticationWindow.xaml.vb",
+              "DocumentMoniker": "C:\\Users\\anced\\OneDrive\\Documents\\GL1\\BTS1\\programmation evenementielle\\Attendance_system\\attendance system_desktop\\attendanceSystem\\attendanceSystem\\AuthenticationWindow.xaml.vb",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\GL1\\BTS1\\programmation evenementielle\\Attendance_system\\attendance system_desktop\\attendanceSystem\\attendanceSystem\\AuthenticationWindow.xaml.vb",
+              "ToolTip": "C:\\Users\\anced\\OneDrive\\Documents\\GL1\\BTS1\\programmation evenementielle\\Attendance_system\\attendance system_desktop\\attendanceSystem\\attendanceSystem\\AuthenticationWindow.xaml.vb",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\GL1\\BTS1\\programmation evenementielle\\Attendance_system\\attendance system_desktop\\attendanceSystem\\attendanceSystem\\AuthenticationWindow.xaml.vb",
+              "ViewState": "AgIAADAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-09T15:07:25.311Z"
             }
           ]
         }

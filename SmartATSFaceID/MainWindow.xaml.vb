@@ -1,4 +1,5 @@
 ﻿Imports System.Windows.Threading
+Imports MySql.Data.MySqlClient
 Class MainWindow
     Private timer As DispatcherTimer
 
@@ -6,7 +7,7 @@ Class MainWindow
 
         InitializeComponent()
 
-        setupTimer()
+        SetupTimer()
     End Sub
 
     Private Sub SetupTimer()
@@ -26,4 +27,39 @@ Class MainWindow
             login.Show()
         End If
     End Sub
+
+    'Private Sub CreateDataBase()
+    '    Try
+    '        Using connection As New MySqlConnection(connectionString)
+    '            connection.Open()
+
+    '            ' 1. Créer la base de données
+    '            Dim createDbCommand As New MySqlCommand($"CREATE DATABASE IF NOT EXISTS {databaseName};", connection)
+    '            createDbCommand.ExecuteNonQuery()
+
+    '            ' Utiliser la nouvelle base de données
+    '            Dim useDbCommand As New MySqlCommand($"USE {databaseName};", connection)
+    '            useDbCommand.ExecuteNonQuery()
+
+    '            ' 2. Définir le schéma (créer des tables, etc.)
+    '            Dim createAdminCommand As New MySqlCommand(
+    '                "CREATE TABLE IF NOT EXISTS Admins (" &
+    '                "ID INT AUTO_INCREMENT PRIMARY KEY," &
+    '                "Nom VARCHAR(100) NOT NULL," &
+    '                "Prenom VARCHAR(100) NOT NULL," &
+    '                "Email VARCHAR(255) UNIQUE" &
+    '                "Password VARCHAR(100) NOT NULL," &
+    '                ");", connection)
+    '            createAdminCommand.ExecuteNonQuery()
+
+    '            MessageBox.Show($"La base de données '{databaseName}' et la table 'Utilisateurs' ont été créées avec succès.", "Succès")
+
+    '        End Using
+
+    '    Catch ex As MySqlException
+    '        MessageBox.Show("Erreur MySQL : " & ex.Message, "Erreur")
+    '    Catch ex As Exception
+    '        MessageBox.Show("Erreur : " & ex.Message, "Erreur")
+    '    End Try
+    'End Sub
 End Class
