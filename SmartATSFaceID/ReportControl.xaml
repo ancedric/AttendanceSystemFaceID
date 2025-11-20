@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="ReportControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SmartATSFaceID"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="#FFD1DCF5" Margin="0,0,0,-153">
+        <Label Content="RAPPORT DE PRESENCE" HorizontalAlignment="Left" Margin="65,38,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="16"/>
+        <Rectangle HorizontalAlignment="Left" Height="1" Margin="35,70,0,0" VerticalAlignment="Top" Width="663" Fill="#FF2F38C1" RenderTransformOrigin="0.5,0.5" RadiusX="1" RadiusY="1">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Label Content="Date" HorizontalAlignment="Left" Height="44" Margin="36,89,0,0" VerticalAlignment="Top" Width="82" FontFamily="Dubai Medium" FontSize="26"/>
+        <Rectangle x:Name="resetFormEmployeBtn" HorizontalAlignment="Left" Height="44" Margin="453,88,0,0" VerticalAlignment="Top" Width="241" RadiusX="5" RadiusY="5" Cursor="Hand" Stroke="#FF05880D"/>
+        <Label x:Name="resetFormButtonLabel" Content="Générer Rapport" HorizontalAlignment="Left" Margin="498,97,0,0" VerticalAlignment="Top" Foreground="#FF05880D" FontFamily="Century Gothic" Width="142" FontSize="14"/>
+        <Image HorizontalAlignment="Left" Height="40" Margin="620,282,0,0" VerticalAlignment="Top" Width="47" Source="/Images/icons8-chercher.gif"/>
+        <DataGrid HorizontalAlignment="Left" Height="331" Margin="51,224,0,0" VerticalAlignment="Top" Width="647" d:ItemsSource="{d:SampleData ItemCount=5}" Background="{x:Null}" Foreground="#FF2F38C1" HorizontalGridLinesBrush="#FF2F38C1" VerticalGridLinesBrush="#FF2F38C1">
+            <DataGrid.CellStyle>
+                <Style/>
+            </DataGrid.CellStyle>
+        </DataGrid>
+        <DatePicker HorizontalAlignment="Left" Margin="118,88,0,0" VerticalAlignment="Top" Height="44" Width="318" Foreground="#FF2F38C1" BorderBrush="{x:Null}" FontSize="18" Background="White"/>
+        <Rectangle HorizontalAlignment="Left" Height="1" Margin="31,167,0,0" VerticalAlignment="Top" Width="667" Fill="#FF2F38C1" RenderTransformOrigin="0.5,0.5" RadiusX="1" RadiusY="1">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+    </Grid>
+</UserControl>

@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SmartATSFaceID"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,2,0,-2">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <LinearGradientBrush.RelativeTransform>
@@ -21,10 +22,10 @@
                 <GradientStop Color="#FF556DEF" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Label x:Name="titleLabel" Content="SMART ATTENDANCE SYSTEM" HorizontalAlignment="Center" VerticalAlignment="Top" Width="618" FontFamily="Arial Black" FontWeight="Bold" Foreground="White" FontSize="36" Margin="0,151,0,0"/>
-        <Label x:Name="SubTitleLabel" Content="FACE ID" HorizontalAlignment="Center" VerticalAlignment="Top" Width="94" FontFamily="Century Gothic" Foreground="White" FontSize="20" FontStyle="Italic" Margin="0,198,0,0"/>
-        <Image x:Name="smartATSLogo" HorizontalAlignment="Left" Height="100" Margin="348,232,0,0" VerticalAlignment="Top" Width="100" Source="/Images/logo_face_id.png"/>
-        <ProgressBar x:Name="progressBar" HorizontalAlignment="Left" Height="5" Margin="172,370,0,0" VerticalAlignment="Top" Width="450" Minimum="0" Maximum="100" Value="0"/>
+        <Label x:Name="titleLabel" Content="SMART ATTENDANCE SYSTEM" HorizontalAlignment="Center" VerticalAlignment="Top" Width="618" FontFamily="Arial Black" FontWeight="Bold" Foreground="White" FontSize="36" Margin="0,103,0,0"/>
+        <Label x:Name="SubTitleLabel" Content="FACE ID" HorizontalAlignment="Center" VerticalAlignment="Top" Width="94" FontFamily="Century Gothic" Foreground="White" FontSize="20" FontStyle="Italic" Margin="0,150,0,0"/>
+        <Image x:Name="smartATSLogo" HorizontalAlignment="Left" Height="100" Margin="348,184,0,0" VerticalAlignment="Top" Width="100" Source="/Images/logo_face_id.png"/>
+        <ProgressBar x:Name="progressBar" HorizontalAlignment="Left" Height="5" Margin="172,350,0,0" VerticalAlignment="Top" Width="450" Minimum="0" Maximum="100" Value="0"/>
 
     </Grid>
 </Window>

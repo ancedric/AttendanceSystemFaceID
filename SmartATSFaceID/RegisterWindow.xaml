@@ -1,0 +1,23 @@
+﻿<Window x:Class="RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SmartATSFaceID"
+        mc:Ignorable="d"
+        Title="RegisterWindow" Height="450" Width="800">
+    <Grid Background="#FFD1DCF5">
+        <TextBox x:Name="nomTextBox" HorizontalAlignment="Left" Height="52" Margin="42,120,0,0" VerticalAlignment="Top" Width="434" Background="{x:Null}" BorderBrush="#FF2F38C1" Foreground="#FF2F38C1" SelectionBrush="{x:Null}" VerticalContentAlignment="Center" Padding="100,0,0,0"/>
+        <Label Content="NOUVEL EMPLOYE" HorizontalAlignment="Left" Margin="39,34,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="16"/>
+        <Label Content="Nom" HorizontalAlignment="Left" Height="44" Margin="36,80,0,0" VerticalAlignment="Top" Width="82" FontFamily="Dubai Medium" FontSize="26"/>
+        <Rectangle x:Name="addEmployeBtn" HorizontalAlignment="Left" Height="44" Margin="42,332,0,0" VerticalAlignment="Top" Width="484" RadiusX="5" RadiusY="5" Fill="#FF2F38C1" Cursor="Hand"/>
+        <TextBox x:Name="prenomTextBox" HorizontalAlignment="Left" Height="52" Margin="42,247,0,0" VerticalAlignment="Top" Width="434" Background="{x:Null}" BorderBrush="#FF2F38C1" Foreground="#FF2F38C1" SelectionBrush="{x:Null}" VerticalContentAlignment="Center" Padding="100,0,0,0"/>
+        <Label Content="Prénom" HorizontalAlignment="Left" Height="44" Margin="42,203,0,0" VerticalAlignment="Top" Width="103" FontFamily="Dubai Medium" FontSize="26"/>
+        <Label Content="Photo" HorizontalAlignment="Left" Height="44" Margin="534,80,0,0" VerticalAlignment="Top" Width="90" FontFamily="Dubai Medium" FontSize="26"/>
+        <Rectangle x:Name="resetFormEmployeBtn" HorizontalAlignment="Left" Height="44" Margin="534,332,0,0" VerticalAlignment="Top" Width="210" RadiusX="5" RadiusY="5" Cursor="Hand" Stroke="#FF05880D"/>
+        <Label x:Name="resetFormButtonLabel" Content="Reinitialiser" HorizontalAlignment="Left" Margin="594,341,0,0" VerticalAlignment="Top" Foreground="#FF05880D" FontFamily="Century Gothic" Width="91" FontSize="14"/>
+        <Label x:Name="addEmployeButtonLabel" Content="Ajouter Employé" HorizontalAlignment="Left" Margin="224,339,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Century Gothic" Width="134" FontSize="14"/>
+        <Image x:Name="imageBox" HorizontalAlignment="Left" Height="170" Margin="534,127,0,0" VerticalAlignment="Top" Width="188"/>
+
+    </Grid>
+</Window>

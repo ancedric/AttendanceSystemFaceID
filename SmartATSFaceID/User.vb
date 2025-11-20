@@ -10,8 +10,14 @@ Public MustInherit Class User
         Me.prenom = prenom
     End Sub
 
-    Public MustOverride Sub createUser() 'Méthode pour ajouter un utilisateur à la base de données
-    Public MustOverride Sub updateUser() 'Méthode pour mettre à jour les informations d'un utilisateur dans la base de données
-    Public MustOverride Sub deleteUser() 'Méthode pour supprimer un utilisateur dans la base de données
+    Public Overridable Sub createUser() 'Méthode pour ajouter un utilisateur à la base de données
+
+    End Sub
+    Public Overridable Sub updateUser() 'Méthode pour mettre à jour les informations d'un utilisateur dans la base de données
+
+    End Sub
+    Public Overridable Sub deleteUser() 'Méthode pour supprimer un utilisateur dans la base de données
+
+    End Sub
 
 End Class

@@ -29,25 +29,69 @@ Public Class Admin
     Public Overrides Sub DeleteUser()
         Throw New NotImplementedException()
     End Sub
-    Public Function login(email As String, password As String) As Boolean
+
+    Public Function GetInfos() As String
+        Dim nom As String = Me.nom
+        Dim prenom As String = Me.prenom
+
+        Return nom + " " + prenom
+    End Function
+    Public Shared Function Login(email As String, password As String) As Boolean
         Dim result As Admin
+        Try
 
+            Using connection As New MySqlConnection(connectionString)
+                Dim query As String = "SELECT nom, prenom, email, password FROM admins WHERE email=@email"
+
+                Using command As New MySqlCommand(query, connection)
+                    command.Parameters.AddWithValue("@email", email)
+
+                    connection.Open()
+
+                    Using reader As MySqlDataReader = command.ExecuteReader()
+
+                        If reader.HasRows Then
+                            reader.Read()
+                            If (reader("password").ToString() = password) Then
+
+                                result = New Admin(reader("nom").ToString(), reader("prenom").ToString, reader("email").ToString(), reader("password").ToString())
+                                loggedAdmin = result
+
+                                Return True
+                            Else
+                                MessageBox.Show("Mot de passe incorrect.", "Erreur de Connexion")
+                                Return False
+                            End If
+                        Else
+                            MessageBox.Show("Utilisateur non trouvé.", "Erreur de Connexion")
+                            Return False
+                        End If
+                    End Using
+
+                End Using
+            End Using
+
+        Catch ex As Exception
+            MessageBox.Show($"Une erreur est survenue lors de la connexion : {ex.Message}", "Erreur Critique de Base de Données")
+            Console.WriteLine($"Erreur détaillée: {ex.StackTrace}")
+            Return False
+        End Try
+    End Function
+
+    Public Shared Function SignUp(nom As String, prenom As String, email As String, password As String) As Boolean
         Using connection As New MySqlConnection(connectionString)
-            Dim query As String = " SELECT (nom, prenom, email) FROM admins WHERE  email=@email AND password=@password"
+            Dim query As String = " INSERT INTO admins (nom, prenom, email, password) VALUES(@nom, @prenom, @email, @password)"
             Using command As New MySqlCommand(query, connection)
-                command.Parameters.AddWithValue(" @email ", email)
-                command.Parameters.AddWithValue(" @password", password)
+                command.Parameters.AddWithValue("@nom", nom)
+                command.Parameters.AddWithValue("@prenom", prenom)
+                command.Parameters.AddWithValue("@email", email)
+                command.Parameters.AddWithValue("@password", password)
                 connection.Open()
-                Dim reader As MySqlDataReader = command.ExecuteReader()
 
-                If reader.HasRows Then
-                    reader.Read()
+                Dim rowsAffected As Integer = command.ExecuteNonQuery()
 
-                    result = New Admin(reader("nom").ToString(), reader("prenom").ToString, reader("email").ToString(), reader("PasswordBoxAutomationPeer").ToString())
-                    loggedAdmin = result
-
+                If rowsAffected > 0 Then
                     Return True
-
                 Else
                     Return False
                 End If
