@@ -5,10 +5,37 @@
     <TargetFramework>net8.0-windows</TargetFramework>
     <RootNamespace>SmartATSFaceID</RootNamespace>
     <UseWPF>true</UseWPF>
+    <OptionStrict>On</OptionStrict>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Cascades\haarcascade_frontalface_default.xml" />
+    <None Remove="Images\icons8-chercher.gif" />
     <None Remove="Images\logo_face_id.png" />
+    <None Remove="Images\reconnaissance-faciale-biometrique-et-verification-de-l-identite.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Cascades\haarcascade_frontalface_default.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
@@ -24,11 +51,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Emgu.CV" Version="4.12.0.5764" />
+    <PackageReference Include="Emgu.CV.runtime.windows" Version="4.12.0.5764" />
+    <PackageReference Include="Emgu.CV.UI" Version="4.12.0.5764" />
     <PackageReference Include="MySql.Data" Version="9.4.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Images\icons8-chercher.gif" />
     <Resource Include="Images\logo_face_id.png" />
+    <Resource Include="Images\reconnaissance-faciale-biometrique-et-verification-de-l-identite.jpg" />
   </ItemGroup>
 
 </Project>

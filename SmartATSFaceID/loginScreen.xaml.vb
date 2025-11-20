@@ -2,13 +2,18 @@
 Option Explicit On
 
 Public Class loginScreen
-    Private Sub loginButton_Click(sender As Object, e As RoutedEventArgs) Handles loginButton.Click
+    Private Sub LoginButton_Click(sender As Object, e As RoutedEventArgs) Handles loginButton.Click
         Dim email As String = emailTextBox.Text.ToString()
-        Dim password As String = passwordTextBox.Text.ToString()
-        Dim admin As Admin = New Admin("", "", email, password)
+        Dim password As String = passwordTextBox.Password.ToString()
         If (email IsNot Nothing AndAlso password IsNot Nothing) Then
-            admin.login(email, password)
-        Else
+            Dim loggedIn As Boolean = Admin.Login(email, password)
+            If (loggedIn = True) Then
+                Dim home As New Home
+                Me.Close()
+                home.Show()
+            Else
+                MessageBox.Show("Email ou mot de passe incorrect")
+            End If
             MessageBox.Show("Veuillez remplir tous les champs s'il vous plait!")
         End If
     End Sub

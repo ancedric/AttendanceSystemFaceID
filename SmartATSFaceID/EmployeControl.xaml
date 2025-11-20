@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="EmployeControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SmartATSFaceID"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="472">
+    <Grid Background="#FFD1DCF5" Margin="0,0,0,-153">
+        <TextBox HorizontalAlignment="Left" Height="52" Margin="42,114,0,0" VerticalAlignment="Top" Width="212" Background="{x:Null}" BorderBrush="#FF2F38C1" Foreground="#FF2F38C1" SelectionBrush="{x:Null}" VerticalContentAlignment="Center" Padding="100,0,0,0"/>
+        <Label Content="EMPLOYES" HorizontalAlignment="Left" Margin="65,38,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="16"/>
+        <Rectangle HorizontalAlignment="Left" Height="1" Margin="35,70,0,0" VerticalAlignment="Top" Width="663" Fill="#FF2F38C1" RenderTransformOrigin="0.5,0.5" RadiusX="1" RadiusY="1">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Label Content="Listes des employés" HorizontalAlignment="Left" Height="44" Margin="51,285,0,0" VerticalAlignment="Top" Width="243" FontFamily="Dubai Medium" FontSize="25" Foreground="#FF1532F1"/>
+        <Label Content="Nom" HorizontalAlignment="Left" Height="44" Margin="36,80,0,0" VerticalAlignment="Top" Width="82" FontFamily="Dubai Medium" FontSize="26"/>
+        <Rectangle x:Name="addEmployeBtn" HorizontalAlignment="Left" Height="44" Margin="42,171,0,0" VerticalAlignment="Top" Width="656" RadiusX="5" RadiusY="5" Fill="#FF2F38C1" Cursor="Hand"/>
+        <Label x:Name="addEmployeButtonLabel" Content="Ajouter Employé" HorizontalAlignment="Left" Margin="302,176,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Century Gothic" Width="140" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left" Height="52" Margin="260,114,0,0" VerticalAlignment="Top" Width="224" Background="{x:Null}" BorderBrush="#FF2F38C1" Foreground="#FF2F38C1" SelectionBrush="{x:Null}" VerticalContentAlignment="Center" Padding="100,0,0,0"/>
+        <Label Content="Prenom" HorizontalAlignment="Left" Height="44" Margin="255,76,0,0" VerticalAlignment="Top" Width="103" FontFamily="Dubai Medium" FontSize="26"/>
+        <Label Content="Photo" HorizontalAlignment="Left" Height="44" Margin="481,78,0,0" VerticalAlignment="Top" Width="90" FontFamily="Dubai Medium" FontSize="26"/>
+        <TextBox HorizontalAlignment="Left" Height="52" Margin="490,114,0,0" VerticalAlignment="Top" Width="208" Background="{x:Null}" BorderBrush="#FF2F38C1" Foreground="#FF2F38C1" SelectionBrush="{x:Null}" VerticalContentAlignment="Center" Padding="100,0,0,0"/>
+        <Rectangle x:Name="resetFormEmployeBtn" HorizontalAlignment="Left" Height="44" Margin="490,228,0,0" VerticalAlignment="Top" Width="210" RadiusX="5" RadiusY="5" Cursor="Hand" Stroke="#FF05880D"/>
+        <Label x:Name="resetFormButtonLabel" Content="Reinitialiser" HorizontalAlignment="Left" Margin="550,237,0,0" VerticalAlignment="Top" Foreground="#FF05880D" FontFamily="Century Gothic" Width="91" FontSize="14"/>
+        <Rectangle x:Name="editEmployeBtn" HorizontalAlignment="Left" Height="44" Margin="258,228,0,0" VerticalAlignment="Top" Width="224" RadiusX="5" RadiusY="5" Cursor="Hand" Stroke="#FF2F38C1"/>
+        <Label x:Name="editEmployeButtonLabel" Content="Modifierer Employé" HorizontalAlignment="Left" Margin="296,237,0,0" VerticalAlignment="Top" Foreground="#FF2F38C1" FontFamily="Century Gothic" Width="140" FontSize="14"/>
+        <Rectangle x:Name="deleteEmployeBtn" HorizontalAlignment="Left" Height="44" Margin="42,229,0,0" VerticalAlignment="Top" Width="207" RadiusX="5" RadiusY="5" Cursor="Hand" Stroke="#FFFB0909"/>
+        <Label x:Name="deleteEmployeButtonLabel" Content="Supprimer Employé" HorizontalAlignment="Left" Margin="78,237,0,0" VerticalAlignment="Top" Foreground="#FFFB0909" FontFamily="Century Gothic" Width="140" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="353,285,0,0" VerticalAlignment="Top" Width="262" Background="{x:Null}" BorderBrush="#FF2F38C1" Foreground="#FF2F38C1" SelectionBrush="{x:Null}" VerticalContentAlignment="Center" Padding="100,0,0,0"/>
+        <Image HorizontalAlignment="Left" Height="40" Margin="620,282,0,0" VerticalAlignment="Top" Width="47" Source="/Images/icons8-chercher.gif"/>
+        <DataGrid HorizontalAlignment="Left" Height="247" Margin="51,338,0,0" VerticalAlignment="Top" Width="647" d:ItemsSource="{d:SampleData ItemCount=5}" Background="{x:Null}" Foreground="#FF2F38C1" HorizontalGridLinesBrush="#FF2F38C1" VerticalGridLinesBrush="#FF2F38C1">
+            <DataGrid.CellStyle>
+                <Style/>
+            </DataGrid.CellStyle>
+        </DataGrid>
+    </Grid>
+</UserControl>
